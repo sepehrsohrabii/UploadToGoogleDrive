@@ -13,7 +13,7 @@ def index(request):
     # Define the scope of access
     SCOPES = ['https://www.googleapis.com/auth/drive']
 
-    redirect_uri = 'http://localhost:8000/oauth2callback/'
+    redirect_uri = 'http://165.232.116.144:8000/oauth2callback/'
     
     # Define the path to the credentials JSON file
     CLIENT_SECRET_FILE = './main/client_secret_472889574093-r2vstebsjghkepuc8k3joioim7rp8t6e.apps.googleusercontent.com.json'
